@@ -1,0 +1,56 @@
+body{
+    font-family:Arial,sans serif;
+    background-color: pink;
+}
+h1,h2{
+    font-size:40px;
+    color:black;
+    text-align:center;
+    text-decoration:underline;
+}
+p1,p2,p3,p4{
+    background-color: white;
+    border-radius:10px 10px ;
+    padding:30px;
+}
+a{
+    color:red;
+    font-size:30px;
+    text-decoration:underline;
+
+}
+ .ref{
+            display: flex;
+            justify-content:right;
+            justify-items: center;}
+
+form{
+        background-color: aqua;
+            color: orangered;
+            padding: 25px;
+            width: 400px;
+            border-radius: 20px;
+            display: block;
+            margin: 20px auto;}
+    form label{
+    font-size:30px;
+    color:black;}
+
+ table {
+            width: 100%;
+            border-collapse: collapse;
+
+ }
+        th,td{
+            border: 2px solid black;
+        }
+        form{
+        background-color: aqua;
+            color: orangered;
+            padding: 25px;
+            width: 400px;
+            border-radius: 20px;
+            display: block;
+            margin: 20px auto;}
+
+
