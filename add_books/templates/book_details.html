@@ -1,25 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Book Details</title>
-    <link rel="stylesheet" href="../../static/assets/styles/main.css">">
-</head>
+{% extends 'base.html' %}
+{% block title %}
+   Book_details - Book Store
+{% endblock %}
+{% block content %}
 <body>
 <!-- As a link -->
-<nav class="navbar bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-  </div>
-</nav>
-
-<!-- As a heading -->
-<nav class="navbar bg-body-tertiary">
-  <div class="container-fluid">
-    <span class="navbar-brand mb-0 h1">Navbar</span>
-  </div>
-</nav>
 <form action="form">
+<h2>BOOK DETAILS</h2>
     <label>Tittle</label><br>
     <input type="text"><br><br>
     <label>Author</label><br>
@@ -28,5 +15,4 @@
     <input type="number">
     
 </form>
-</body>
-</html>
+{% endblock %}

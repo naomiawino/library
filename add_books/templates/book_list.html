@@ -1,24 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Book List</title>
-    <link rel="stylesheet" href="../../static/assets/styles/main.css">
-</head>
+{% extends 'base.html' %}
+{% block title %}
+   Book_list - Book Store
+{% endblock %}
+{% block content %}
 <body>
 <!-- As a link -->
-<nav class="navbar bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-  </div>
-</nav>
-
-<!-- As a heading -->
-<nav class="navbar bg-body-tertiary">
-  <div class="container-fluid">
-    <span class="navbar-brand mb-0 h1">Navbar</span>
-  </div>
-    <table>
+<table>
         <tr>
           <th>Tittle</th>
           <th>Author</th>
@@ -52,5 +39,4 @@
         </tr>
     </table>
 </nav>
-</body>
-</html>
+{% endblock %}
